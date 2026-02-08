@@ -1,0 +1,22 @@
+[project]
+name = "evitrust-backend"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.111",
+  "uvicorn[standard]>=0.30",
+  "pydantic-settings>=2.3",
+  "pymongo>=4.7",
+  "python-multipart>=0.0.9",
+  "redis>=5.0",
+  "celery>=5.4",
+  "minio>=7.2",
+  "python-jose[cryptography]>=3.3",
+  "passlib[bcrypt]>=1.7",
+  "pynacl>=1.5",
+  "Pillow>=10.3",
+  "reportlab>=4.2"
+]
+
+[tool.uvicorn]
+factory = false
