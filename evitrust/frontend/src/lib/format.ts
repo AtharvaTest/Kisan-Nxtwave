@@ -1,0 +1,1 @@
+export const date=(s:string)=>new Date(s).toLocaleString();

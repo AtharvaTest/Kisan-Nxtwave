@@ -1,0 +1,2 @@
+class EviTrustError(Exception):
+    pass
